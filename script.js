@@ -53,4 +53,4 @@ searchButton.addEventListener("click", async () => {
   }
 });
 
-// ... (rest of the code)
+
