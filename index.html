@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Math Partner</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">Math Partner</div>
+      <button id="saved-button">Saved Solutions</button>
+    </header>
+
+    <div class="input-container">
+      <input
+        type="text"
+        id="problem-input"
+        placeholder="Enter a math problem"
+      />
+      <select id="problem-type">
+        <option value="factor">Factor</option>
+        <option value="derive">Derive</option>
+        <option value="integrate">Integrate</option>
+        <option value="simplify">Simplify</option>
+      </select>
+      <button id="search-button">Search</button>
+    </div>
+
+    <div class="answer-container" id="answer-container"></div>
+
+    <div class="saved-solutions-container" id="saved-solutions-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
